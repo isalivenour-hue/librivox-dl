@@ -1,7 +1,7 @@
 # librivox-dl
 
 Search and download free public-domain audiobooks from
-[LibriVox](https://librivox.org) — volunteer readings of books whose
+[LibriVox](https://librivox.org) - volunteer readings of books whose
 copyright has expired, free for anyone to use for any purpose.
 
 Pure Python, standard library only. No pip install, no API key.
@@ -26,7 +26,7 @@ python3 librivox_dl.py download 253 --output ~/audiobooks
 ## Notes
 
 - Only public-domain recordings exist on LibriVox. If a modern book is not
-  there, it is still under copyright — this tool cannot help with that, by
+  there, it is still under copyright - this tool cannot help with that, by
   design.
 - Downloads come from archive.org mirrors at the URL the LibriVox API
   returns. Files are named `<title-slug>-<id>.zip`.
@@ -43,5 +43,5 @@ The test suite runs fully offline with mocked API responses.
 
 ## License
 
-MIT — see [LICENSE](LICENSE). LibriVox recordings themselves are in the
+MIT - see [LICENSE](LICENSE). LibriVox recordings themselves are in the
 public domain.
