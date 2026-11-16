@@ -24,7 +24,7 @@ import urllib.request
 from typing import List, Optional
 
 API_BASE = "https://librivox.org/api/feed/audiobooks/"
-USER_AGENT = "librivox-dl/0.1 (+https://github.com/isalivenour-hue/librivox-dl)"
+USER_AGENT = "librivox-dl/0.1 (+https://github.com/noah-hayes-dev/librivox-dl)"
 DEFAULT_LIMIT = 10
 MAX_LIMIT = 50
 
